@@ -81,6 +81,7 @@ h1,h2 {
     font-family: var(--heading-font);
 }
 
+
 h1 {
     font-size: 3em;
     color: var(--white);
@@ -88,33 +89,42 @@ h1 {
 }
 
 nav h2 {
-    font-size: 2em;
+    font-family: var(--body-font);
+    font-size: 1.5em;
+    font-style: italic;
+    color: var(--dark-gray);
 }
 
 h2 {
   font-size: 2em;
   color: var(--white);
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.5em;
   color: var(--yellow);
+  font-weight: bold;
 }
 
 h4 {
   font-size: 1.15em;
+  color: var(--purple);
+  font-weight: bold;
 }
 
 /*HEADER*/
 header {
     text-align: center;
     padding: 1rem;
+    color: var(--white);
 }
 
 /*NAV*/
 nav {
   background-color: var(--yellow);
   padding: 1rem;
+  border: none;
   text-align: center;
 }
 
@@ -147,3 +157,55 @@ article {
     padding: 1rem;
     margin: 1rem 0;
 }
+
+/*IMAGES*/
+img {
+  width: 50px;
+}
+
+/* WHY CHOOSE US */
+#why {
+  background-color: var(--pink);
+}
+
+#why ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+#why li {
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#why li:nth-child(1) { background-color: var(--teal); }
+#why li:nth-child(2) { background-color: var(--lavender); }
+#why li:nth-child(3) { background-color: var(--yellow); }
+#why li:nth-child(4) { background-color: var(--white); }
+
+/* TABLES */
+table {
+  width: 50%;
+  margin: 1rem auto;
+  background-color: var(--white);
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: bold;
+}
+
+th {
+  background-color: var(--yellow);
+  color: var(--dark-gray);
+  padding: 0.5rem;
+}
+
+td {
+    background-color: var(--white);
+    padding: 0.5rem;
+}
+
+
+
