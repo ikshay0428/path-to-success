@@ -41,7 +41,6 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
 	content: none;
 }
 table {
@@ -51,7 +50,7 @@ table {
 
 /*ROOT VARIABLES*/
 :root {
-     --teal: #4CA7C0;
+  --teal: #4CA7C0;
   --purple: #484FB7;
   --lavender: #6B8FE7;
   --yellow: #E9BB57;
